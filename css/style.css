@@ -101,3 +101,273 @@ tr:hover {
     transform: translateY(0);         /* Reset position on click */
     box-shadow: 0 3px 8px rgba(78, 114, 177, 0.2); /* Smaller shadow */
 }
+header {
+    background-color: #001f3d; /* Dark Blue */
+    padding: 15px 0;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navbar li:last-child {
+    margin-right: 0;
+}
+
+.navbar a {
+    color: white;
+    background-color: #001f3d;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #003366; /* Slightly lighter blue */
+    color: #ffcc00; /* Golden hover effect */
+}
+.Tiguan {
+    margin-left: 630px;
+    width: 300px;
+}
+.content {
+    text-align: center;
+    margin-top: 100px; /* To avoid overlap with fixed navbar */
+    padding: 20px;
+}
+
+h1 {
+    color: #001f3d; /* Dark Blue */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #001f3d;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+ul li {
+    background-color: #ffffff;
+    color: #333;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+ul li strong {
+    color: #001f3d;
+}
+
+ul li:hover {
+    background-color: #f0f0f0;
+}
+
+/* Mobile-Friendly Design */
+@media screen and (max-width: 768px) {
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        margin-top: 150px; /* More margin for mobile view */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    ul li {
+        font-size: 1em;
+    }
+}
+.Passa {
+    width: 350px;
+    margin-left: 600px;
+}
+.Tauga {
+    width: 430px;
+    margin-left: 550px;
+}
+.footer {
+    background-color: #f0f0f0; /* Light gray */
+    padding: 20px 0;
+    text-align: center;
+    font-size: 0.9em;
+    color: #333;
+    margin-top: 50px; /* Spacing from content */
+}
+
+.footer a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+/* Mobile-Friendly Design */
+@media screen and (max-width: 768px) {
+    .navbar li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content {
+        margin-top: 150px; /* More margin for mobile view */
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .footer {
+        font-size: 1em;
+    }
+}
+.kuku1 {
+    width: 70px;
+    margin-left: 15px;
+    margin-bottom: -10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.kuku1:hover {
+    opacity:1;
+}
+.kuku {
+    width: 50px;
+    margin-left: 30px;
+    margin-top: -5px;
+    margin-bottom: -20px;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.kuku:hover {
+    opacity:1;
+}
+.kuku2 {
+    width: 50px;
+    margin-left: 22px;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    opacity: 0; 
+    transition: opacity 0.3s ease;
+}
+.kuku2:hover {
+    opacity:1;
+}
+.imazhi {
+    margin-left: 300px;
+}
+.h2-shi {
+    margin-left: 660px;
+    margin-top: 100px;
+}
+.popular-models {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    gap: 20px;
+    padding: 50px 0;
+    margin-left: 250px;
+}
+
+/* Model Card Styling */
+.model {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+
+.model h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+.model .price {
+    font-size: 1.2rem;
+    color: #003b5c; /* Volkswagen Dark Blue */
+    margin: 10px 0;
+}
+
+.model .cta-button {
+    padding: 10px 20px;
+    background-color: #ffcc00; /* Volkswagen Yellow */
+    color: #003b5c;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.model .cta-button:hover {
+    background-color: #e0a800; /* Darker yellow on hover */
+}
+
+/* Image Styling */
+.model-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, margin-left 0.3s ease; /* Smooth transition */
+}
+
+/* On hover, zoom in and shift image to the left */
+.model:hover .model-image {
+    transform: scale(1.1); /* Zoom in effect */
+    margin-left: -10px; /* Move the image to the left */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .popular-models {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .model {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
